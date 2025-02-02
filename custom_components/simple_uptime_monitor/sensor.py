@@ -65,6 +65,9 @@ async def async_setup_entry(hass, config_entry, async_add_entities):
         status_sensor.async_schedule_update_ha_state()
         response_time_sensor.async_schedule_update_ha_state()
 
+    # Update sensors immediately upon setup
+    await update_sensors(None)
+
     # Register the callback based on the configured update interval
     async_track_time_interval(hass, update_sensors, timedelta(seconds=interval))
 
