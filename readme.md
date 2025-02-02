@@ -36,6 +36,7 @@ The Simple Uptime Monitor integration allows you to:
 Click the following Button and add the integration to your HomeAssistant.
 
 [![Open your Home Assistant instance and show the add integration dialog with a specific integration pre-selected.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=LukeMitDemHut&repository=simple_uptime_monitor&category=integration)
+After you have added the Repository to your HACS, click the download button in the bottom right corner and confirm. After that restart HomeAssistant. You will now be able to add the integration in `Settings -> Devices & Services -> Add integration -> Search for Simple Uptime Monitor`
 
 ## Configuration
 
