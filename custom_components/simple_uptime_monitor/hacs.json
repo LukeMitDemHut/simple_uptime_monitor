@@ -1,0 +1,11 @@
+{
+    "name": "Simple Uptime Monitor",
+    "content_in_root": false,
+    "domains": ["sensor"],
+    "homeassistant": "2021.1.5",
+    "render_readme": true,
+    "zip_release": false,
+    "filename": "simple_uptime_monitor.zip",
+    "iot_class": "cloud_polling",
+    "version": "1.0.0"
+}

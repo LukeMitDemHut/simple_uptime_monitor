@@ -1,0 +1,11 @@
+{
+    "domain": "simple_uptime_monitor",
+    "name": "Simple Uptime Monitor",
+    "version": "1.0.0",
+    "documentation": "https://github.com/LukeMitDemHut/simple_uptime_monitor",
+    "requirements": ["aiohttp", "async-timeout"],
+    "dependencies": [],
+    "codeowners": ["@LukeMitDemHut"],
+    "config_flow": true
+}
+  
